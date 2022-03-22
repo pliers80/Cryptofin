@@ -1,0 +1,7 @@
+echo "# Cryptofin" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pliers80/Cryptofin.git
+git push -u origin main
